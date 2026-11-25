@@ -1,0 +1,16 @@
+name: Amendment proposal
+description: Propose a change to a license.
+body:
+  - type: input
+    id: scope
+    attributes:
+      label: License, version, and affected articles
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change and rationale
+      description: Explain the legal meaning, translation impact, and any compatibility considerations.
+    validations:
+      required: true
