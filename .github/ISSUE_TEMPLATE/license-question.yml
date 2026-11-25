@@ -1,0 +1,10 @@
+name: License question
+description: Ask a question about a license or its documentation.
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: Identify the license, version, and relevant articles if known.
+    validations:
+      required: true
